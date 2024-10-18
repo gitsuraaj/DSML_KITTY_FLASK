@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET'])
 def ping():
-    return "<H1>Loan Approval Application</H1>"
+    return "<H1>Loan Approval Application 1</H1>"
 
 model_pickle = open("classifier.pkl", "rb")
 clf = pickle.load(model_pickle)
